@@ -1,0 +1,28 @@
+.banner{
+	text-align: center;
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../../images/mapvoyage.jpg');
+	background-size: cover;
+	height: 690px;
+	margin-top: 0;
+	color: #72b5b7;
+	display: flex;
+	justify-content: center;
+
+}
+
+.banner h1{
+	font-family: 'Sriracha', cursive;
+	margin-top: 0;
+	text-align: center;
+	color: white;
+	
+}
+
+h2{
+	color: white;
+}
+
+.container {
+	padding-top: 100px;
+	color: #9d0b0b;
+}

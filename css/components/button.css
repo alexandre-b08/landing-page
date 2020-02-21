@@ -1,0 +1,14 @@
+.btn-discover{
+	text-align: center;
+	font-size: 20px;
+	background-color: #b7472a;
+	border-radius: 6px;
+	padding: 5px;
+	transition: all 1s;
+  	cursor: pointer;
+  	text-decoration: none;
+  	color: white;
+}
+
+
+

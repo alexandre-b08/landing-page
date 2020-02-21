@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/aeroport.css");
+
+
+
+body{
+	font-family: 'Sriracha', cursive;
+	text-align: center;
+	margin: 0;
+}
+
+
+p{
+	font-size: 25px;
+	color: white;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  .card-image{
+  	width: 250px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  .card-image{
+  	width: 300px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .card-image{
+  	width: 100px;
+  }
+}
